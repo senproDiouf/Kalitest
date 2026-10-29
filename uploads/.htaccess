@@ -1,0 +1,10 @@
+# Pour le lab - Ce fichier serait normalement présent pour bloquer l'exécution PHP
+# MAIS pour le lab File Upload, il est volontairement ABSENT ou commenté
+
+# En production, décommenter ceci :
+# php_flag engine off
+# Options -ExecCGI
+# AddType text/plain .php .php3 .php4 .php5 .phtml
+
+# Pour ce lab : les fichiers PHP uploadés sont EXÉCUTABLES (vulnérabilité intentionnelle)
+Options +Indexes

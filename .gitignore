@@ -1,0 +1,26 @@
+# ── Uploads (fichiers uploadés dans les labs) ──────────────────
+uploads/*.php
+uploads/*.php3
+uploads/*.phtml
+uploads/*.phar
+
+# ── Logs ──────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── LFI pages générées ────────────────────────────────────────
+labs/lfi/pages/
+
+# ── Environnement local (à créer manuellement) ────────────────
+config/local.php
+
+# ── IDE / OS ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+*.idea/
+
+# ── Garder le dossier uploads mais pas son contenu ────────────
+uploads/*
+!uploads/.htaccess
+!uploads/.gitkeep
